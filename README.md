@@ -29,9 +29,11 @@ Backend of a stock management application
 
 ## Description
 
-This backend is developed using Node.js with Nest.js as the framework, and MongoDB as the NoSQL database with Mongoose as the ORM.
+This repository contains the backend for a stock management application. It provides RESTful APIs for managing items in the inventory.
 
-This repository contains the backend of a stock management application. To run the frontend, please visit [frontend repository link]
+To run the frontend of the application, please visit the [Stock Management Frontend repository](https://github.com/ZarakiMelo/stock_management_frontend).
+
+This backend is developed using Typescript and Node.js with Nest.js as the framework, and MongoDB as the NoSQL database with Mongoose as the ORM.
 
 ## Installation
 
