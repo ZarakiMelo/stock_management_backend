@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # stock_management_backend
 Backend of a stock management application
+
 =======
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
@@ -28,49 +29,36 @@ Backend of a stock management application
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This backend is developed using Node.js with Nest.js as the framework, and MongoDB as the NoSQL database with Mongoose as the ORM.
+
+This repository contains the backend of a stock management application. To run the frontend, please visit [frontend repository link]
 
 ## Installation
 
 ```bash
-$ npm install
+$ git clone <repository-url>
+$ cd stock-management-backend
+
+$  npm install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ npm start
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
+The application will be accessible at http://localhost:3000.
 
-## Test
+## Technologies Used
 
-```bash
-# unit tests
-$ npm run test
+Node.js: v14.x.x<br>
+Nest.js: v10.3.9<br>
+MongoDB: NoSQL database<br>
+Mongoose: v8.4.3<br>
+TypeScript: v5.1.3<br>
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
